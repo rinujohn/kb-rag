@@ -1,0 +1,34 @@
+creat bash script 
+
+to make it executable 
+run 'chmod +x install_scripts.sh'
+
+to activate from terminal
+'source .venv/bin/activate'
+
+to deactivate
+'deactivate'
+
+to verify a pip install
+'pip show llama-index'
+
+update the vscode intrepreter to the venv
+cmd+shift+P  -> python:select intrepreter
+
+
+langchain install :
+'pip install -U langchain'
+
+
+notebook installation
+'pip install jupyter ipykernel'
+
+
+to update llama-index-core to fix pdf read issue
+
+'pip install -U llama-index llama-index-core'
+
+
+
+to use the huggingface model for embedding
+'pip install llama-index-embeddings-huggingface sentence-transformers'
